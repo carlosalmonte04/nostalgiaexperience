@@ -1,12 +1,18 @@
 {
-  "name": "nostalgia",
+  "name": "nostalgiaexperience",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "6.7.0"
+  },
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server scripts/app/app.js scripts/app/script-bundle.js",
-    "start": "node server.js"
+    "build": "webpack-dev-server scripts/app/app.js scripts/app/script-bundle.js"
+  },
+  "dependencies": {
+    "express" : "4.13.3"
   },
   "author": "",
   "license": "ISC",
