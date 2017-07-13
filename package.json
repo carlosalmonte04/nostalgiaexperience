@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nostalgia Inc",
   "engines": {
-    "node": "6.7.0"
+    "node": "6.11.1"
   },
   "main": "server.js",
   "scripts": {
